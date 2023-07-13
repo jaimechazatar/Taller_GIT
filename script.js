@@ -15,3 +15,9 @@ function convertirMasa() {
     var gramos = kilogramos * 1000;
     document.getElementById('resultado3').innerHTML = kilogramos + " kilogramos equivale a " + gramos + " gramos.";
 }
+
+function convertirLongitud() {
+    var metros = document.getElementById("metros").value;
+    var centimetros = metros * 100;
+    document.getElementById("resultado4").innerHTML = metros + " metros son " + centimetros + " centímetros.";
+}
