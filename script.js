@@ -9,3 +9,9 @@ function convertirPresion() {
     var valorBar = valorPascal / 100000;
     document.getElementById("resultado2").innerHTML = valorPascal + " pascales son equivalentes a " + valorBar + " Bar.";
 }
+
+function convertirMasa() {
+    var kilogramos = parseFloat(document.getElementById('kilogramos').value);
+    var gramos = kilogramos * 1000;
+    document.getElementById('resultado3').innerHTML = kilogramos + " kilogramos equivale a " + gramos + " gramos.";
+}
